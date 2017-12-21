@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlZehraIslamicCenter/Menu/Modules/PrayerTimings/Entity/AZPrayerTimingAPI.swift"
+            timestampString = "531348771.392382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "didReceiveResponse(serviceType:headerResponse:finalResponse:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlZehraIslamicCenter/Menu/Modules/PrayerTimings/View/AZLandingViewController.swift"
+            timestampString = "531348111.832929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlZehraIslamicCenter.AZLandingViewController.updateView () -&gt; ()"
+                  moduleName = "AlZehraIslamicCenter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shabi/Desktop/Shabi/HasanMehndi/AlZehraIslamicCenter/AlZehraIslamicCenter/Menu/Modules/PrayerTimings/View/AZLandingViewController.swift"
+                  timestampString = "531348777.798471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "218">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlZehraIslamicCenter.AZLandingViewController.updateView () -&gt; ()"
+                  moduleName = "AlZehraIslamicCenter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shabi/Desktop/Shabi/HasanMehndi/AlZehraIslamicCenter/AlZehraIslamicCenter/Menu/Modules/PrayerTimings/View/AZLandingViewController.swift"
+                  timestampString = "531348777.801826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlZehraIslamicCenter/Menu/Modules/PrayerTimings/Entity/AZPrayerTimingAPI.swift"
+            timestampString = "531348124.302683"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "didReceiveError(serviceType:theError:failureResponse:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

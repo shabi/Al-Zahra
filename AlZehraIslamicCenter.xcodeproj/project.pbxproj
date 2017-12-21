@@ -1,0 +1,1335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11E86BE1FD5950B005ECD8E /* AZQiblaFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E86BD1FD5950B005ECD8E /* AZQiblaFinder.swift */; };
+		B150ADF41FC6A6C200CD39CC /* AZDirectionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150ADF31FC6A6C200CD39CC /* AZDirectionMapViewController.swift */; };
+		B150ADF61FC6A6E500CD39CC /* AZDirectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150ADF51FC6A6E500CD39CC /* AZDirectionDetailViewController.swift */; };
+		B150ADF81FC6A70100CD39CC /* AZDirectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B150ADF71FC6A70100CD39CC /* AZDirectionCell.xib */; };
+		B150ADFA1FC6A71500CD39CC /* AZDirectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150ADF91FC6A71500CD39CC /* AZDirectionCell.swift */; };
+		B150ADFC1FC6A72900CD39CC /* AZDirectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150ADFB1FC6A72900CD39CC /* AZDirectionManager.swift */; };
+		B150ADFE1FC6A75100CD39CC /* AZSearchDirectionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150ADFD1FC6A75100CD39CC /* AZSearchDirectionResultViewController.swift */; };
+		B150AE001FC6B47000CD39CC /* AZDirectionSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B150ADFF1FC6B47000CD39CC /* AZDirectionSearchCell.xib */; };
+		B150AE021FC6B4E800CD39CC /* AZDirectionSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE011FC6B4E800CD39CC /* AZDirectionSearchCell.swift */; };
+		B150AE051FC7FF4900CD39CC /* AZUserLandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE041FC7FF4900CD39CC /* AZUserLandingScreenViewController.swift */; };
+		B150AE071FC7FF8D00CD39CC /* AZUserDetailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE061FC7FF8D00CD39CC /* AZUserDetailAPI.swift */; };
+		B150AE091FC7FFB400CD39CC /* AZUserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE081FC7FFB400CD39CC /* AZUserDetailViewModel.swift */; };
+		B150AE0F1FCB191C00CD39CC /* AZWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE0E1FCB191C00CD39CC /* AZWebViewController.swift */; };
+		B150AE1A1FCDDEA000CD39CC /* AZIslamicSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE191FCDDEA000CD39CC /* AZIslamicSchoolViewController.swift */; };
+		B150AE1C1FCDDEAE00CD39CC /* AZFuneralServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE1B1FCDDEAE00CD39CC /* AZFuneralServiceViewController.swift */; };
+		B150AE1E1FCDDEBC00CD39CC /* AZMarriageServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE1D1FCDDEBC00CD39CC /* AZMarriageServiceViewController.swift */; };
+		B150AE201FCDDEDF00CD39CC /* AZSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE1F1FCDDEDF00CD39CC /* AZSupportViewController.swift */; };
+		B150AE221FCDDEEF00CD39CC /* AZMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE211FCDDEEF00CD39CC /* AZMissionViewController.swift */; };
+		B150AE241FCDDF0600CD39CC /* AZContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE231FCDDF0600CD39CC /* AZContactUsViewController.swift */; };
+		B150AE261FCDDF1400CD39CC /* AZSignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE251FCDDF1400CD39CC /* AZSignOutViewController.swift */; };
+		B150AE281FCDE86B00CD39CC /* AZAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150AE271FCDE86B00CD39CC /* AZAnnouncementViewController.swift */; };
+		B17E2AA71FD2B8230077F4AE /* AZWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E2AA61FD2B8230077F4AE /* AZWKViewController.swift */; };
+		B1906AF11FEAE07F00EAFD20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1906AF01FEAE07F00EAFD20 /* GoogleService-Info.plist */; };
+		B1A10D141FE2FB250052BE3A /* AZPaymentHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A10D131FE2FB250052BE3A /* AZPaymentHistoryCell.xib */; };
+		B1A10D161FE2FE3B0052BE3A /* AZPaymentHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A10D151FE2FE3B0052BE3A /* AZPaymentHistoryCell.swift */; };
+		B1C8EC7A1FBD4DD500DD8CCF /* AZSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8EC791FBD4DD500DD8CCF /* AZSignUpViewController.swift */; };
+		B1C8EC831FBD4F5500DD8CCF /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC7C1FBD4F5400DD8CCF /* Nunito-Regular.ttf */; };
+		B1C8EC841FBD4F5500DD8CCF /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC7D1FBD4F5400DD8CCF /* Nunito-Black.ttf */; };
+		B1C8EC851FBD4F5500DD8CCF /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC7E1FBD4F5400DD8CCF /* Nunito-ExtraBold.ttf */; };
+		B1C8EC861FBD4F5500DD8CCF /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC7F1FBD4F5400DD8CCF /* Nunito-Light.ttf */; };
+		B1C8EC871FBD4F5500DD8CCF /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC801FBD4F5400DD8CCF /* Nunito-Medium.ttf */; };
+		B1C8EC881FBD4F5500DD8CCF /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC811FBD4F5400DD8CCF /* Nunito-SemiBold.ttf */; };
+		B1C8EC891FBD4F5500DD8CCF /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC821FBD4F5500DD8CCF /* Nunito-Bold.ttf */; };
+		B1C8EC8C1FBD502600DD8CCF /* AZUserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C8EC8A1FBD502600DD8CCF /* AZUserInfoCell.xib */; };
+		B1C8EC8D1FBD502600DD8CCF /* AZUserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8EC8B1FBD502600DD8CCF /* AZUserInfoCell.swift */; };
+		B1C8EC8F1FBD506C00DD8CCF /* AZUsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8EC8E1FBD506C00DD8CCF /* AZUsersListViewController.swift */; };
+		B1C8EC981FBDE78A00DD8CCF /* AZCreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8EC971FBDE78A00DD8CCF /* AZCreateEventViewController.swift */; };
+		B1C8EC9F1FBF374D00DD8CCF /* AZCreateEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8EC9E1FBF374D00DD8CCF /* AZCreateEventModel.swift */; };
+		B1C8ECA11FBF37F700DD8CCF /* AZCreateEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECA01FBF37F700DD8CCF /* AZCreateEventAPI.swift */; };
+		B1C8ECA41FC0B55400DD8CCF /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECA31FC0B55400DD8CCF /* AppDataManager.swift */; };
+		B1C8ECA61FC14B6100DD8CCF /* AZCreateEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECA51FC14B6100DD8CCF /* AZCreateEventViewModel.swift */; };
+		B1C8ECAC1FC1616600DD8CCF /* AZOfflineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECAB1FC1616600DD8CCF /* AZOfflineResponse.swift */; };
+		B1C8ECAE1FC1621C00DD8CCF /* AZOfflinePaymentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECAD1FC1621C00DD8CCF /* AZOfflinePaymentAPI.swift */; };
+		B1C8ECB01FC1644100DD8CCF /* AZOfflinePaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECAF1FC1644100DD8CCF /* AZOfflinePaymentViewModel.swift */; };
+		B1C8ECB21FC1654B00DD8CCF /* AZOfflinePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECB11FC1654B00DD8CCF /* AZOfflinePaymentViewController.swift */; };
+		B1C8ECB41FC2953B00DD8CCF /* AZAllUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECB31FC2953B00DD8CCF /* AZAllUserResponse.swift */; };
+		B1C8ECB61FC2959A00DD8CCF /* AZAllUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECB51FC2959A00DD8CCF /* AZAllUserAPI.swift */; };
+		B1C8ECB81FC297BF00DD8CCF /* AZAllUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8ECB71FC297BF00DD8CCF /* AZAllUserViewModel.swift */; };
+		EA49A9ADA79FAE0702A6C1E7 /* Pods_AlZehraIslamicCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D298F90B7F183367513575 /* Pods_AlZehraIslamicCenter.framework */; };
+		F21348491F8425FB005EED91 /* Pods_AlZehraIslamicCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21348481F8425FB005EED91 /* Pods_AlZehraIslamicCenter.framework */; };
+		F22AC58B1FAA4854002F3B5B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22AC58A1FAA4854002F3B5B /* Color+Extension.swift */; };
+		F23F5A1B1F972314002A677F /* SKServiceConfigauration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A1A1F972314002A677F /* SKServiceConfigauration.swift */; };
+		F23F5A1D1F972331002A677F /* SKServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A1C1F972331002A677F /* SKServiceConstants.swift */; };
+		F23F5A1F1F972354002A677F /* SKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A1E1F972354002A677F /* SKUtility.swift */; };
+		F23F5A211F972370002A677F /* SKServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A201F972370002A677F /* SKServiceManager.swift */; };
+		F23F5A231F972395002A677F /* SKServiceManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A221F972395002A677F /* SKServiceManagerProtocol.swift */; };
+		F23F5A2A1F97398F002A677F /* UserStatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A291F97398F002A677F /* UserStatusAPI.swift */; };
+		F23F5A2C1F9739AC002A677F /* UserStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A2B1F9739AC002A677F /* UserStatusViewModel.swift */; };
+		F23F5A2F1F973C0A002A677F /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A2E1F973C0A002A677F /* ApiConstants.swift */; };
+		F23F5A321F974024002A677F /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A311F974024002A677F /* KeychainItemAccessibility.swift */; };
+		F23F5A341F974055002A677F /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A331F974055002A677F /* KeychainWrapper.swift */; };
+		F23F5A371F974108002A677F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A361F974108002A677F /* Constants.swift */; };
+		F23F5A3F1F97479E002A677F /* AZUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A3E1F97479E002A677F /* AZUtility.swift */; };
+		F23F5A411F974937002A677F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A401F974937002A677F /* String+Extension.swift */; };
+		F23F5A431F974B40002A677F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A421F974B40002A677F /* Date+Extension.swift */; };
+		F23F5A451F975979002A677F /* ModelMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F5A441F975979002A677F /* ModelMappable.swift */; };
+		F266C6731F97766400FA5AE6 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266C6721F97766400FA5AE6 /* UserInfoModel.swift */; };
+		F266C6751F977FEC00FA5AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266C6741F977FEC00FA5AE6 /* ViewController.swift */; };
+		F27382261FABB17D00131355 /* AZPrayerTimingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27382251FABB17D00131355 /* AZPrayerTimingAPI.swift */; };
+		F273822A1FABB35100131355 /* AZLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27382291FABB35100131355 /* AZLandingViewController.swift */; };
+		F273822C1FABB3C900131355 /* AZPrayerTimingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F273822B1FABB3C900131355 /* AZPrayerTimingModel.swift */; };
+		F273822E1FABB3EB00131355 /* AZPrayerTimingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F273822D1FABB3EB00131355 /* AZPrayerTimingViewModel.swift */; };
+		F283CCD41F767FB9002C2748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CCD31F767FB9002C2748 /* AppDelegate.swift */; };
+		F283CCD91F767FB9002C2748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283CCD71F767FB9002C2748 /* Main.storyboard */; };
+		F283CCDB1F767FB9002C2748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F283CCDA1F767FB9002C2748 /* Assets.xcassets */; };
+		F283CCDE1F767FB9002C2748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283CCDC1F767FB9002C2748 /* LaunchScreen.storyboard */; };
+		F283CCE91F767FBA002C2748 /* AlZehraIslamicCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CCE81F767FBA002C2748 /* AlZehraIslamicCenterTests.swift */; };
+		F283CCF91F7688F7002C2748 /* AZDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CCF81F7688F7002C2748 /* AZDrawerViewController.swift */; };
+		F283CD011F768F50002C2748 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CD001F768F50002C2748 /* Storyboard+Extension.swift */; };
+		F283CD031F76ABB7002C2748 /* AZMenuItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F283CD021F76ABB7002C2748 /* AZMenuItemCollectionViewCell.xib */; };
+		F283CD051F76ACD8002C2748 /* AZMenuItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CD041F76ACD8002C2748 /* AZMenuItemCollectionViewCell.swift */; };
+		F283CD071F76AFD3002C2748 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CD061F76AFD3002C2748 /* NSObject+Extension.swift */; };
+		F283CD161F77F020002C2748 /* AZUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283CD151F77F020002C2748 /* AZUserInfoModel.swift */; };
+		F2B407641FA5128500E13B54 /* AZUpComingEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407631FA5128500E13B54 /* AZUpComingEventAPI.swift */; };
+		F2B407661FA514E300E13B54 /* AZUpComingEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407651FA514E300E13B54 /* AZUpComingEventViewModel.swift */; };
+		F2B407751FA516C000E13B54 /* AZAuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407731FA516C000E13B54 /* AZAuthTokenRequest.swift */; };
+		F2B407761FA516C000E13B54 /* AZAuthTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407741FA516C000E13B54 /* AZAuthTokenResponse.swift */; };
+		F2B407781FA585AF00E13B54 /* AZLoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407771FA585AE00E13B54 /* AZLoginAPI.swift */; };
+		F2B4077A1FA5987800E13B54 /* AZLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407791FA5987800E13B54 /* AZLoginViewModel.swift */; };
+		F2B407801FA5A6C100E13B54 /* AZCreateAccountAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4077F1FA5A6C100E13B54 /* AZCreateAccountAPI.swift */; };
+		F2B407831FA5A72D00E13B54 /* AZCreateAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407811FA5A72D00E13B54 /* AZCreateAccountRequest.swift */; };
+		F2B407841FA5A72D00E13B54 /* AZCreateAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407821FA5A72D00E13B54 /* AZCreateAccountResponse.swift */; };
+		F2B407861FA5A75C00E13B54 /* AZCreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407851FA5A75C00E13B54 /* AZCreateAccountViewModel.swift */; };
+		F2B407881FA5B25A00E13B54 /* AZUpComingEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407871FA5B25A00E13B54 /* AZUpComingEventModel.swift */; };
+		F2B4078A1FA5D65500E13B54 /* AZLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407891FA5D65500E13B54 /* AZLoginViewController.swift */; };
+		F2B407901FA71F3E00E13B54 /* AZEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B4078F1FA71F3D00E13B54 /* AZEventViewController.swift */; };
+		F2B407921FA7203400E13B54 /* AZEventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B407911FA7203400E13B54 /* AZEventCollectionViewCell.swift */; };
+		F2B407941FA720A700E13B54 /* AZEventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B407931FA720A700E13B54 /* AZEventCollectionViewCell.xib */; };
+		F2FECC261F9C8B49002C7031 /* PRGValidationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FECC1E1F9C8B49002C7031 /* PRGValidationField.swift */; };
+		F2FECC271F9C8B49002C7031 /* PRGValidationField.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC1F1F9C8B49002C7031 /* PRGValidationField.xib */; };
+		F2FECC281F9C8B49002C7031 /* PRGVFInvalid.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC201F9C8B49002C7031 /* PRGVFInvalid.png */; };
+		F2FECC291F9C8B49002C7031 /* PRGVFInvalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC211F9C8B49002C7031 /* PRGVFInvalid@2x.png */; };
+		F2FECC2A1F9C8B49002C7031 /* PRGVFInvalid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC221F9C8B49002C7031 /* PRGVFInvalid@3x.png */; };
+		F2FECC2B1F9C8B49002C7031 /* PRGVFValid.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC231F9C8B49002C7031 /* PRGVFValid.png */; };
+		F2FECC2C1F9C8B49002C7031 /* PRGVFValid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC241F9C8B49002C7031 /* PRGVFValid@2x.png */; };
+		F2FECC2D1F9C8B49002C7031 /* PRGVFValid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FECC251F9C8B49002C7031 /* PRGVFValid@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F283CCE51F767FBA002C2748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F283CCC81F767FB9002C2748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F283CCCF1F767FB9002C2748;
+			remoteInfo = AlZehraIslamicCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		627D0D357AE2E2008D9CD4A8 /* Pods-AlZehraIslamicCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlZehraIslamicCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlZehraIslamicCenter/Pods-AlZehraIslamicCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		B11E86BD1FD5950B005ECD8E /* AZQiblaFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZQiblaFinder.swift; sourceTree = "<group>"; };
+		B150ADF31FC6A6C200CD39CC /* AZDirectionMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDirectionMapViewController.swift; sourceTree = "<group>"; };
+		B150ADF51FC6A6E500CD39CC /* AZDirectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDirectionDetailViewController.swift; sourceTree = "<group>"; };
+		B150ADF71FC6A70100CD39CC /* AZDirectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AZDirectionCell.xib; sourceTree = "<group>"; };
+		B150ADF91FC6A71500CD39CC /* AZDirectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDirectionCell.swift; sourceTree = "<group>"; };
+		B150ADFB1FC6A72900CD39CC /* AZDirectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDirectionManager.swift; sourceTree = "<group>"; };
+		B150ADFD1FC6A75100CD39CC /* AZSearchDirectionResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZSearchDirectionResultViewController.swift; sourceTree = "<group>"; };
+		B150ADFF1FC6B47000CD39CC /* AZDirectionSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AZDirectionSearchCell.xib; sourceTree = "<group>"; };
+		B150AE011FC6B4E800CD39CC /* AZDirectionSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDirectionSearchCell.swift; sourceTree = "<group>"; };
+		B150AE041FC7FF4900CD39CC /* AZUserLandingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZUserLandingScreenViewController.swift; sourceTree = "<group>"; };
+		B150AE061FC7FF8D00CD39CC /* AZUserDetailAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZUserDetailAPI.swift; sourceTree = "<group>"; };
+		B150AE081FC7FFB400CD39CC /* AZUserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZUserDetailViewModel.swift; sourceTree = "<group>"; };
+		B150AE0E1FCB191C00CD39CC /* AZWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZWebViewController.swift; sourceTree = "<group>"; };
+		B150AE191FCDDEA000CD39CC /* AZIslamicSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZIslamicSchoolViewController.swift; sourceTree = "<group>"; };
+		B150AE1B1FCDDEAE00CD39CC /* AZFuneralServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZFuneralServiceViewController.swift; sourceTree = "<group>"; };
+		B150AE1D1FCDDEBC00CD39CC /* AZMarriageServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZMarriageServiceViewController.swift; sourceTree = "<group>"; };
+		B150AE1F1FCDDEDF00CD39CC /* AZSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZSupportViewController.swift; sourceTree = "<group>"; };
+		B150AE211FCDDEEF00CD39CC /* AZMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZMissionViewController.swift; sourceTree = "<group>"; };
+		B150AE231FCDDF0600CD39CC /* AZContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZContactUsViewController.swift; sourceTree = "<group>"; };
+		B150AE251FCDDF1400CD39CC /* AZSignOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZSignOutViewController.swift; sourceTree = "<group>"; };
+		B150AE271FCDE86B00CD39CC /* AZAnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZAnnouncementViewController.swift; sourceTree = "<group>"; };
+		B17E2AA61FD2B8230077F4AE /* AZWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZWKViewController.swift; sourceTree = "<group>"; };
+		B1906AF01FEAE07F00EAFD20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1A10D131FE2FB250052BE3A /* AZPaymentHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AZPaymentHistoryCell.xib; sourceTree = "<group>"; };
+		B1A10D151FE2FE3B0052BE3A /* AZPaymentHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZPaymentHistoryCell.swift; sourceTree = "<group>"; };
+		B1C8EC791FBD4DD500DD8CCF /* AZSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZSignUpViewController.swift; sourceTree = "<group>"; };
+		B1C8EC7C1FBD4F5400DD8CCF /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		B1C8EC7D1FBD4F5400DD8CCF /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		B1C8EC7E1FBD4F5400DD8CCF /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B1C8EC7F1FBD4F5400DD8CCF /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		B1C8EC801FBD4F5400DD8CCF /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		B1C8EC811FBD4F5400DD8CCF /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		B1C8EC821FBD4F5500DD8CCF /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		B1C8EC8A1FBD502600DD8CCF /* AZUserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZUserInfoCell.xib; sourceTree = "<group>"; };
+		B1C8EC8B1FBD502600DD8CCF /* AZUserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUserInfoCell.swift; sourceTree = "<group>"; };
+		B1C8EC8E1FBD506C00DD8CCF /* AZUsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUsersListViewController.swift; sourceTree = "<group>"; };
+		B1C8EC971FBDE78A00DD8CCF /* AZCreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZCreateEventViewController.swift; sourceTree = "<group>"; };
+		B1C8EC9E1FBF374D00DD8CCF /* AZCreateEventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZCreateEventModel.swift; sourceTree = "<group>"; };
+		B1C8ECA01FBF37F700DD8CCF /* AZCreateEventAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZCreateEventAPI.swift; sourceTree = "<group>"; };
+		B1C8ECA31FC0B55400DD8CCF /* AppDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
+		B1C8ECA51FC14B6100DD8CCF /* AZCreateEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZCreateEventViewModel.swift; sourceTree = "<group>"; };
+		B1C8ECAB1FC1616600DD8CCF /* AZOfflineResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZOfflineResponse.swift; sourceTree = "<group>"; };
+		B1C8ECAD1FC1621C00DD8CCF /* AZOfflinePaymentAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZOfflinePaymentAPI.swift; sourceTree = "<group>"; };
+		B1C8ECAF1FC1644100DD8CCF /* AZOfflinePaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZOfflinePaymentViewModel.swift; sourceTree = "<group>"; };
+		B1C8ECB11FC1654B00DD8CCF /* AZOfflinePaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZOfflinePaymentViewController.swift; sourceTree = "<group>"; };
+		B1C8ECB31FC2953B00DD8CCF /* AZAllUserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZAllUserResponse.swift; sourceTree = "<group>"; };
+		B1C8ECB51FC2959A00DD8CCF /* AZAllUserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZAllUserAPI.swift; sourceTree = "<group>"; };
+		B1C8ECB71FC297BF00DD8CCF /* AZAllUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZAllUserViewModel.swift; sourceTree = "<group>"; };
+		D9D298F90B7F183367513575 /* Pods_AlZehraIslamicCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlZehraIslamicCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA47B1C20AF1D487929EE601 /* Pods-AlZehraIslamicCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlZehraIslamicCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlZehraIslamicCenter/Pods-AlZehraIslamicCenter.release.xcconfig"; sourceTree = "<group>"; };
+		F20F5F641F7C316100914C59 /* AlZehraIslamicCenter-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlZehraIslamicCenter-Bridging-Header.h"; sourceTree = "<group>"; };
+		F20F5F651F7E284F00914C59 /* Braintree.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Braintree.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AlZehraIslamicCenter-fdhcywzhkhdfeadftgycurdrxvgf/Build/Products/Debug-iphonesimulator/Braintree/Braintree.framework"; sourceTree = "<group>"; };
+		F21348461F8424D7005EED91 /* BraintreeDropIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreeDropIn.framework; path = "Pods/../build/Debug-iphoneos/BraintreeDropIn/BraintreeDropIn.framework"; sourceTree = "<group>"; };
+		F21348481F8425FB005EED91 /* Pods_AlZehraIslamicCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_AlZehraIslamicCenter.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AlZehraIslamicCenter-fdhcywzhkhdfeadftgycurdrxvgf/Build/Products/Debug-iphonesimulator/Pods_AlZehraIslamicCenter.framework"; sourceTree = "<group>"; };
+		F22AC58A1FAA4854002F3B5B /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		F23F5A1A1F972314002A677F /* SKServiceConfigauration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKServiceConfigauration.swift; sourceTree = "<group>"; };
+		F23F5A1C1F972331002A677F /* SKServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKServiceConstants.swift; sourceTree = "<group>"; };
+		F23F5A1E1F972354002A677F /* SKUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKUtility.swift; sourceTree = "<group>"; };
+		F23F5A201F972370002A677F /* SKServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKServiceManager.swift; sourceTree = "<group>"; };
+		F23F5A221F972395002A677F /* SKServiceManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKServiceManagerProtocol.swift; sourceTree = "<group>"; };
+		F23F5A291F97398F002A677F /* UserStatusAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatusAPI.swift; sourceTree = "<group>"; };
+		F23F5A2B1F9739AC002A677F /* UserStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatusViewModel.swift; sourceTree = "<group>"; };
+		F23F5A2E1F973C0A002A677F /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		F23F5A311F974024002A677F /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		F23F5A331F974055002A677F /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		F23F5A351F9740A2002A677F /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		F23F5A361F974108002A677F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F23F5A3E1F97479E002A677F /* AZUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUtility.swift; sourceTree = "<group>"; };
+		F23F5A401F974937002A677F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		F23F5A421F974B40002A677F /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		F23F5A441F975979002A677F /* ModelMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelMappable.swift; sourceTree = "<group>"; };
+		F266C6721F97766400FA5AE6 /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		F266C6741F977FEC00FA5AE6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F27382251FABB17D00131355 /* AZPrayerTimingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPrayerTimingAPI.swift; sourceTree = "<group>"; };
+		F27382291FABB35100131355 /* AZLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZLandingViewController.swift; sourceTree = "<group>"; };
+		F273822B1FABB3C900131355 /* AZPrayerTimingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPrayerTimingModel.swift; sourceTree = "<group>"; };
+		F273822D1FABB3EB00131355 /* AZPrayerTimingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPrayerTimingViewModel.swift; sourceTree = "<group>"; };
+		F283CCD01F767FB9002C2748 /* AlZehraIslamicCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlZehraIslamicCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283CCD31F767FB9002C2748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F283CCD81F767FB9002C2748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F283CCDA1F767FB9002C2748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F283CCDD1F767FB9002C2748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F283CCDF1F767FB9002C2748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F283CCE41F767FBA002C2748 /* AlZehraIslamicCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlZehraIslamicCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283CCE81F767FBA002C2748 /* AlZehraIslamicCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlZehraIslamicCenterTests.swift; sourceTree = "<group>"; };
+		F283CCEA1F767FBA002C2748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F283CCF81F7688F7002C2748 /* AZDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZDrawerViewController.swift; sourceTree = "<group>"; };
+		F283CD001F768F50002C2748 /* Storyboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+		F283CD021F76ABB7002C2748 /* AZMenuItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZMenuItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		F283CD041F76ACD8002C2748 /* AZMenuItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZMenuItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		F283CD061F76AFD3002C2748 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		F283CD101F77A366002C2748 /* AlZehraIslamicCenter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlZehraIslamicCenter.entitlements; sourceTree = "<group>"; };
+		F283CD151F77F020002C2748 /* AZUserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUserInfoModel.swift; sourceTree = "<group>"; };
+		F2B407631FA5128500E13B54 /* AZUpComingEventAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUpComingEventAPI.swift; sourceTree = "<group>"; };
+		F2B407651FA514E300E13B54 /* AZUpComingEventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUpComingEventViewModel.swift; sourceTree = "<group>"; };
+		F2B407731FA516C000E13B54 /* AZAuthTokenRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZAuthTokenRequest.swift; sourceTree = "<group>"; };
+		F2B407741FA516C000E13B54 /* AZAuthTokenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZAuthTokenResponse.swift; sourceTree = "<group>"; };
+		F2B407771FA585AE00E13B54 /* AZLoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZLoginAPI.swift; sourceTree = "<group>"; };
+		F2B407791FA5987800E13B54 /* AZLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZLoginViewModel.swift; sourceTree = "<group>"; };
+		F2B4077F1FA5A6C100E13B54 /* AZCreateAccountAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZCreateAccountAPI.swift; sourceTree = "<group>"; };
+		F2B407811FA5A72D00E13B54 /* AZCreateAccountRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZCreateAccountRequest.swift; sourceTree = "<group>"; };
+		F2B407821FA5A72D00E13B54 /* AZCreateAccountResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZCreateAccountResponse.swift; sourceTree = "<group>"; };
+		F2B407851FA5A75C00E13B54 /* AZCreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZCreateAccountViewModel.swift; sourceTree = "<group>"; };
+		F2B407871FA5B25A00E13B54 /* AZUpComingEventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZUpComingEventModel.swift; sourceTree = "<group>"; };
+		F2B407891FA5D65500E13B54 /* AZLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZLoginViewController.swift; sourceTree = "<group>"; };
+		F2B4078F1FA71F3D00E13B54 /* AZEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZEventViewController.swift; sourceTree = "<group>"; };
+		F2B407911FA7203400E13B54 /* AZEventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZEventCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2B407931FA720A700E13B54 /* AZEventCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZEventCollectionViewCell.xib; sourceTree = "<group>"; };
+		F2FECC1E1F9C8B49002C7031 /* PRGValidationField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRGValidationField.swift; sourceTree = "<group>"; };
+		F2FECC1F1F9C8B49002C7031 /* PRGValidationField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRGValidationField.xib; sourceTree = "<group>"; };
+		F2FECC201F9C8B49002C7031 /* PRGVFInvalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRGVFInvalid.png; sourceTree = "<group>"; };
+		F2FECC211F9C8B49002C7031 /* PRGVFInvalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFInvalid@2x.png"; sourceTree = "<group>"; };
+		F2FECC221F9C8B49002C7031 /* PRGVFInvalid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFInvalid@3x.png"; sourceTree = "<group>"; };
+		F2FECC231F9C8B49002C7031 /* PRGVFValid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRGVFValid.png; sourceTree = "<group>"; };
+		F2FECC241F9C8B49002C7031 /* PRGVFValid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFValid@2x.png"; sourceTree = "<group>"; };
+		F2FECC251F9C8B49002C7031 /* PRGVFValid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFValid@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F283CCCD1F767FB9002C2748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21348491F8425FB005EED91 /* Pods_AlZehraIslamicCenter.framework in Frameworks */,
+				EA49A9ADA79FAE0702A6C1E7 /* Pods_AlZehraIslamicCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283CCE11F767FBA002C2748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BFF3A1ECD7CAC896FA3C481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				627D0D357AE2E2008D9CD4A8 /* Pods-AlZehraIslamicCenter.debug.xcconfig */,
+				EA47B1C20AF1D487929EE601 /* Pods-AlZehraIslamicCenter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B150ADF21FC69E3B00CD39CC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B150ADF31FC6A6C200CD39CC /* AZDirectionMapViewController.swift */,
+				B150ADF51FC6A6E500CD39CC /* AZDirectionDetailViewController.swift */,
+				B150ADF71FC6A70100CD39CC /* AZDirectionCell.xib */,
+				B150ADF91FC6A71500CD39CC /* AZDirectionCell.swift */,
+				B150ADFB1FC6A72900CD39CC /* AZDirectionManager.swift */,
+				B150ADFD1FC6A75100CD39CC /* AZSearchDirectionResultViewController.swift */,
+				B150ADFF1FC6B47000CD39CC /* AZDirectionSearchCell.xib */,
+				B150AE011FC6B4E800CD39CC /* AZDirectionSearchCell.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B150AE0C1FCB190200CD39CC /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				B150AE0D1FCB190200CD39CC /* Deeplink */,
+				B150AE0E1FCB191C00CD39CC /* AZWebViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		B150AE0D1FCB190200CD39CC /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
+		B1C8EC7B1FBD4EEA00DD8CCF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8EC7D1FBD4F5400DD8CCF /* Nunito-Black.ttf */,
+				B1C8EC821FBD4F5500DD8CCF /* Nunito-Bold.ttf */,
+				B1C8EC7E1FBD4F5400DD8CCF /* Nunito-ExtraBold.ttf */,
+				B1C8EC7F1FBD4F5400DD8CCF /* Nunito-Light.ttf */,
+				B1C8EC801FBD4F5400DD8CCF /* Nunito-Medium.ttf */,
+				B1C8EC7C1FBD4F5400DD8CCF /* Nunito-Regular.ttf */,
+				B1C8EC811FBD4F5400DD8CCF /* Nunito-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B1C8ECA71FC15F7B00DD8CCF /* OfflinePayment */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8ECA81FC15F7B00DD8CCF /* Entity */,
+				B1C8ECA91FC15F7B00DD8CCF /* View */,
+				B1C8ECAA1FC15F7B00DD8CCF /* ViewModel */,
+			);
+			path = OfflinePayment;
+			sourceTree = "<group>";
+		};
+		B1C8ECA81FC15F7B00DD8CCF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8ECAB1FC1616600DD8CCF /* AZOfflineResponse.swift */,
+				B1C8ECAD1FC1621C00DD8CCF /* AZOfflinePaymentAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B1C8ECA91FC15F7B00DD8CCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8ECB11FC1654B00DD8CCF /* AZOfflinePaymentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1C8ECAA1FC15F7B00DD8CCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8ECAF1FC1644100DD8CCF /* AZOfflinePaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B8C14FF17D525442F00FD962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21348481F8425FB005EED91 /* Pods_AlZehraIslamicCenter.framework */,
+				F21348461F8424D7005EED91 /* BraintreeDropIn.framework */,
+				F20F5F651F7E284F00914C59 /* Braintree.framework */,
+				D9D298F90B7F183367513575 /* Pods_AlZehraIslamicCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23F5A151F971897002A677F /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A161F9722D4002A677F /* Common */,
+				F23F5A171F9722D4002A677F /* Helper */,
+				F23F5A181F9722D4002A677F /* Manager */,
+				F23F5A191F9722D4002A677F /* Protocolos */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		F23F5A161F9722D4002A677F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A1A1F972314002A677F /* SKServiceConfigauration.swift */,
+				F23F5A1C1F972331002A677F /* SKServiceConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F23F5A171F9722D4002A677F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A1E1F972354002A677F /* SKUtility.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F23F5A181F9722D4002A677F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A201F972370002A677F /* SKServiceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F23F5A191F9722D4002A677F /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A221F972395002A677F /* SKServiceManagerProtocol.swift */,
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		F23F5A241F973969002A677F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B150AE0C1FCB190200CD39CC /* WebView */,
+				B150ADF21FC69E3B00CD39CC /* Map */,
+				B1C8ECA71FC15F7B00DD8CCF /* OfflinePayment */,
+				F273821F1FABB12C00131355 /* PrayerTimings */,
+				F2B4077B1FA5A6A400E13B54 /* CreateAccount */,
+				F2B407671FA5166800E13B54 /* Login */,
+				F2B4075D1FA5121800E13B54 /* Events */,
+				F23F5A251F973969002A677F /* UserStatus */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F23F5A251F973969002A677F /* UserStatus */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A261F973969002A677F /* Entity */,
+				F23F5A271F973969002A677F /* View */,
+				F23F5A281F973969002A677F /* ViewModel */,
+			);
+			path = UserStatus;
+			sourceTree = "<group>";
+		};
+		F23F5A261F973969002A677F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8ECB31FC2953B00DD8CCF /* AZAllUserResponse.swift */,
+				F266C6721F97766400FA5AE6 /* UserInfoModel.swift */,
+				F23F5A291F97398F002A677F /* UserStatusAPI.swift */,
+				B1C8ECB51FC2959A00DD8CCF /* AZAllUserAPI.swift */,
+				B150AE061FC7FF8D00CD39CC /* AZUserDetailAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F23F5A271F973969002A677F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8EC8E1FBD506C00DD8CCF /* AZUsersListViewController.swift */,
+				B1C8EC8B1FBD502600DD8CCF /* AZUserInfoCell.swift */,
+				B1C8EC8A1FBD502600DD8CCF /* AZUserInfoCell.xib */,
+				B150AE041FC7FF4900CD39CC /* AZUserLandingScreenViewController.swift */,
+				B1A10D131FE2FB250052BE3A /* AZPaymentHistoryCell.xib */,
+				B1A10D151FE2FE3B0052BE3A /* AZPaymentHistoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F23F5A281F973969002A677F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A2B1F9739AC002A677F /* UserStatusViewModel.swift */,
+				B1C8ECB71FC297BF00DD8CCF /* AZAllUserViewModel.swift */,
+				B150AE081FC7FFB400CD39CC /* AZUserDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F23F5A2D1F973BF1002A677F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F2FECC1D1F9C8B48002C7031 /* PRGValidationField */,
+				F23F5A301F974017002A677F /* KeyChain */,
+				F23F5A2E1F973C0A002A677F /* ApiConstants.swift */,
+				F23F5A361F974108002A677F /* Constants.swift */,
+				F23F5A3E1F97479E002A677F /* AZUtility.swift */,
+				F23F5A441F975979002A677F /* ModelMappable.swift */,
+				F266C6741F977FEC00FA5AE6 /* ViewController.swift */,
+				B1C8ECA31FC0B55400DD8CCF /* AppDataManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F23F5A301F974017002A677F /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A311F974024002A677F /* KeychainItemAccessibility.swift */,
+				F23F5A331F974055002A677F /* KeychainWrapper.swift */,
+				F23F5A351F9740A2002A677F /* SwiftKeychainWrapper.h */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		F273821F1FABB12C00131355 /* PrayerTimings */ = {
+			isa = PBXGroup;
+			children = (
+				F27382201FABB12C00131355 /* Entity */,
+				F27382221FABB12C00131355 /* View */,
+				F27382231FABB12C00131355 /* ViewModel */,
+			);
+			path = PrayerTimings;
+			sourceTree = "<group>";
+		};
+		F27382201FABB12C00131355 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F273822B1FABB3C900131355 /* AZPrayerTimingModel.swift */,
+				F27382251FABB17D00131355 /* AZPrayerTimingAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F27382221FABB12C00131355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F27382291FABB35100131355 /* AZLandingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F27382231FABB12C00131355 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F273822D1FABB3EB00131355 /* AZPrayerTimingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F283CCC71F767FB9002C2748 = {
+			isa = PBXGroup;
+			children = (
+				F20F5F641F7C316100914C59 /* AlZehraIslamicCenter-Bridging-Header.h */,
+				F283CCD21F767FB9002C2748 /* AlZehraIslamicCenter */,
+				F283CCE71F767FBA002C2748 /* AlZehraIslamicCenterTests */,
+				F283CCD11F767FB9002C2748 /* Products */,
+				9BFF3A1ECD7CAC896FA3C481 /* Pods */,
+				B8C14FF17D525442F00FD962 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F283CCD11F767FB9002C2748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F283CCD01F767FB9002C2748 /* AlZehraIslamicCenter.app */,
+				F283CCE41F767FBA002C2748 /* AlZehraIslamicCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F283CCD21F767FB9002C2748 /* AlZehraIslamicCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1906AF01FEAE07F00EAFD20 /* GoogleService-Info.plist */,
+				B1C8EC7B1FBD4EEA00DD8CCF /* Fonts */,
+				F283CD101F77A366002C2748 /* AlZehraIslamicCenter.entitlements */,
+				F23F5A151F971897002A677F /* ServiceLayer */,
+				F283CD0B1F77726A002C2748 /* Login */,
+				F283CCFF1F768B49002C2748 /* Extensions */,
+				F283CCFA1F76897C002C2748 /* Landing */,
+				F283CCF31F7686F1002C2748 /* Menu */,
+				F283CCD31F767FB9002C2748 /* AppDelegate.swift */,
+				F283CCD71F767FB9002C2748 /* Main.storyboard */,
+				F283CCDA1F767FB9002C2748 /* Assets.xcassets */,
+				F283CCDC1F767FB9002C2748 /* LaunchScreen.storyboard */,
+				F283CCDF1F767FB9002C2748 /* Info.plist */,
+			);
+			path = AlZehraIslamicCenter;
+			sourceTree = "<group>";
+		};
+		F283CCE71F767FBA002C2748 /* AlZehraIslamicCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F283CCE81F767FBA002C2748 /* AlZehraIslamicCenterTests.swift */,
+				F283CCEA1F767FBA002C2748 /* Info.plist */,
+			);
+			path = AlZehraIslamicCenterTests;
+			sourceTree = "<group>";
+		};
+		F283CCF31F7686F1002C2748 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A241F973969002A677F /* Modules */,
+				F283CCF41F768738002C2748 /* Model */,
+				F283CCF51F768738002C2748 /* View */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F283CCF41F768738002C2748 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B150AE191FCDDEA000CD39CC /* AZIslamicSchoolViewController.swift */,
+				B150AE1B1FCDDEAE00CD39CC /* AZFuneralServiceViewController.swift */,
+				B150AE1D1FCDDEBC00CD39CC /* AZMarriageServiceViewController.swift */,
+				B150AE1F1FCDDEDF00CD39CC /* AZSupportViewController.swift */,
+				B150AE211FCDDEEF00CD39CC /* AZMissionViewController.swift */,
+				B150AE231FCDDF0600CD39CC /* AZContactUsViewController.swift */,
+				B150AE251FCDDF1400CD39CC /* AZSignOutViewController.swift */,
+				B150AE271FCDE86B00CD39CC /* AZAnnouncementViewController.swift */,
+				B17E2AA61FD2B8230077F4AE /* AZWKViewController.swift */,
+				B11E86BD1FD5950B005ECD8E /* AZQiblaFinder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F283CCF51F768738002C2748 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5A2D1F973BF1002A677F /* Shared */,
+				F283CCF81F7688F7002C2748 /* AZDrawerViewController.swift */,
+				F283CD021F76ABB7002C2748 /* AZMenuItemCollectionViewCell.xib */,
+				F283CD041F76ACD8002C2748 /* AZMenuItemCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F283CCFA1F76897C002C2748 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				F283CCFB1F76897C002C2748 /* Model */,
+				F283CCFC1F76897C002C2748 /* View */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		F283CCFB1F76897C002C2748 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F283CCFC1F76897C002C2748 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F283CCFF1F768B49002C2748 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F283CD001F768F50002C2748 /* Storyboard+Extension.swift */,
+				F283CD061F76AFD3002C2748 /* NSObject+Extension.swift */,
+				F23F5A401F974937002A677F /* String+Extension.swift */,
+				F23F5A421F974B40002A677F /* Date+Extension.swift */,
+				F22AC58A1FAA4854002F3B5B /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F283CD0B1F77726A002C2748 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F283CD151F77F020002C2748 /* AZUserInfoModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F2B4075D1FA5121800E13B54 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4075E1FA5121800E13B54 /* Entity */,
+				F2B4075F1FA5121800E13B54 /* View */,
+				F2B407601FA5121800E13B54 /* ViewModel */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		F2B4075E1FA5121800E13B54 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8EC9E1FBF374D00DD8CCF /* AZCreateEventModel.swift */,
+				F2B407871FA5B25A00E13B54 /* AZUpComingEventModel.swift */,
+				F2B407631FA5128500E13B54 /* AZUpComingEventAPI.swift */,
+				B1C8ECA01FBF37F700DD8CCF /* AZCreateEventAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F2B4075F1FA5121800E13B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4078F1FA71F3D00E13B54 /* AZEventViewController.swift */,
+				F2B407911FA7203400E13B54 /* AZEventCollectionViewCell.swift */,
+				F2B407931FA720A700E13B54 /* AZEventCollectionViewCell.xib */,
+				B1C8EC971FBDE78A00DD8CCF /* AZCreateEventViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B407601FA5121800E13B54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407651FA514E300E13B54 /* AZUpComingEventViewModel.swift */,
+				B1C8ECA51FC14B6100DD8CCF /* AZCreateEventViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2B407671FA5166800E13B54 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407681FA5166800E13B54 /* Entity */,
+				F2B4076A1FA5166800E13B54 /* View */,
+				F2B4076B1FA5166800E13B54 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F2B407681FA5166800E13B54 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407731FA516C000E13B54 /* AZAuthTokenRequest.swift */,
+				F2B407741FA516C000E13B54 /* AZAuthTokenResponse.swift */,
+				F2B407771FA585AE00E13B54 /* AZLoginAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F2B4076A1FA5166800E13B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407891FA5D65500E13B54 /* AZLoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B4076B1FA5166800E13B54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407791FA5987800E13B54 /* AZLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2B4077B1FA5A6A400E13B54 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4077C1FA5A6A400E13B54 /* Entity */,
+				F2B4077D1FA5A6A400E13B54 /* View */,
+				F2B4077E1FA5A6A400E13B54 /* ViewModel */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		F2B4077C1FA5A6A400E13B54 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407811FA5A72D00E13B54 /* AZCreateAccountRequest.swift */,
+				F2B407821FA5A72D00E13B54 /* AZCreateAccountResponse.swift */,
+				F2B4077F1FA5A6C100E13B54 /* AZCreateAccountAPI.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F2B4077D1FA5A6A400E13B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8EC791FBD4DD500DD8CCF /* AZSignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B4077E1FA5A6A400E13B54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2B407851FA5A75C00E13B54 /* AZCreateAccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2FECC1D1F9C8B48002C7031 /* PRGValidationField */ = {
+			isa = PBXGroup;
+			children = (
+				F2FECC1E1F9C8B49002C7031 /* PRGValidationField.swift */,
+				F2FECC1F1F9C8B49002C7031 /* PRGValidationField.xib */,
+				F2FECC201F9C8B49002C7031 /* PRGVFInvalid.png */,
+				F2FECC211F9C8B49002C7031 /* PRGVFInvalid@2x.png */,
+				F2FECC221F9C8B49002C7031 /* PRGVFInvalid@3x.png */,
+				F2FECC231F9C8B49002C7031 /* PRGVFValid.png */,
+				F2FECC241F9C8B49002C7031 /* PRGVFValid@2x.png */,
+				F2FECC251F9C8B49002C7031 /* PRGVFValid@3x.png */,
+			);
+			path = PRGValidationField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F283CCCF1F767FB9002C2748 /* AlZehraIslamicCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283CCED1F767FBA002C2748 /* Build configuration list for PBXNativeTarget "AlZehraIslamicCenter" */;
+			buildPhases = (
+				140B2E9300E16ADA87525B2D /* [CP] Check Pods Manifest.lock */,
+				F283CCCC1F767FB9002C2748 /* Sources */,
+				F283CCCD1F767FB9002C2748 /* Frameworks */,
+				F283CCCE1F767FB9002C2748 /* Resources */,
+				D2B8C65A6EB23D4F9F2A5688 /* [CP] Embed Pods Frameworks */,
+				5BC66F06BB7D7C9825A2CF64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlZehraIslamicCenter;
+			productName = AlZehraIslamicCenter;
+			productReference = F283CCD01F767FB9002C2748 /* AlZehraIslamicCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F283CCE31F767FBA002C2748 /* AlZehraIslamicCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283CCF01F767FBA002C2748 /* Build configuration list for PBXNativeTarget "AlZehraIslamicCenterTests" */;
+			buildPhases = (
+				F283CCE01F767FBA002C2748 /* Sources */,
+				F283CCE11F767FBA002C2748 /* Frameworks */,
+				F283CCE21F767FBA002C2748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F283CCE61F767FBA002C2748 /* PBXTargetDependency */,
+			);
+			name = AlZehraIslamicCenterTests;
+			productName = AlZehraIslamicCenterTests;
+			productReference = F283CCE41F767FBA002C2748 /* AlZehraIslamicCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F283CCC81F767FB9002C2748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Shabi;
+				TargetAttributes = {
+					F283CCCF1F767FB9002C2748 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U9R8392X8G;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F283CCE31F767FBA002C2748 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F283CCCF1F767FB9002C2748;
+					};
+				};
+			};
+			buildConfigurationList = F283CCCB1F767FB9002C2748 /* Build configuration list for PBXProject "AlZehraIslamicCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F283CCC71F767FB9002C2748;
+			productRefGroup = F283CCD11F767FB9002C2748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F283CCCF1F767FB9002C2748 /* AlZehraIslamicCenter */,
+				F283CCE31F767FBA002C2748 /* AlZehraIslamicCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F283CCCE1F767FB9002C2748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B150AE001FC6B47000CD39CC /* AZDirectionSearchCell.xib in Resources */,
+				F283CCDE1F767FB9002C2748 /* LaunchScreen.storyboard in Resources */,
+				F2B407941FA720A700E13B54 /* AZEventCollectionViewCell.xib in Resources */,
+				F283CCDB1F767FB9002C2748 /* Assets.xcassets in Resources */,
+				F2FECC281F9C8B49002C7031 /* PRGVFInvalid.png in Resources */,
+				B1C8EC881FBD4F5500DD8CCF /* Nunito-SemiBold.ttf in Resources */,
+				B1C8EC831FBD4F5500DD8CCF /* Nunito-Regular.ttf in Resources */,
+				B1C8EC891FBD4F5500DD8CCF /* Nunito-Bold.ttf in Resources */,
+				F2FECC2D1F9C8B49002C7031 /* PRGVFValid@3x.png in Resources */,
+				F2FECC2B1F9C8B49002C7031 /* PRGVFValid.png in Resources */,
+				B1C8EC871FBD4F5500DD8CCF /* Nunito-Medium.ttf in Resources */,
+				F2FECC2C1F9C8B49002C7031 /* PRGVFValid@2x.png in Resources */,
+				B150ADF81FC6A70100CD39CC /* AZDirectionCell.xib in Resources */,
+				F2FECC291F9C8B49002C7031 /* PRGVFInvalid@2x.png in Resources */,
+				F283CD031F76ABB7002C2748 /* AZMenuItemCollectionViewCell.xib in Resources */,
+				B1C8EC841FBD4F5500DD8CCF /* Nunito-Black.ttf in Resources */,
+				F283CCD91F767FB9002C2748 /* Main.storyboard in Resources */,
+				B1906AF11FEAE07F00EAFD20 /* GoogleService-Info.plist in Resources */,
+				B1C8EC8C1FBD502600DD8CCF /* AZUserInfoCell.xib in Resources */,
+				F2FECC2A1F9C8B49002C7031 /* PRGVFInvalid@3x.png in Resources */,
+				B1A10D141FE2FB250052BE3A /* AZPaymentHistoryCell.xib in Resources */,
+				F2FECC271F9C8B49002C7031 /* PRGValidationField.xib in Resources */,
+				B1C8EC861FBD4F5500DD8CCF /* Nunito-Light.ttf in Resources */,
+				B1C8EC851FBD4F5500DD8CCF /* Nunito-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283CCE21F767FBA002C2748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140B2E9300E16ADA87525B2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlZehraIslamicCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC66F06BB7D7C9825A2CF64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlZehraIslamicCenter/Pods-AlZehraIslamicCenter-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlZehraIslamicCenter/Pods-AlZehraIslamicCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B8C65A6EB23D4F9F2A5688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlZehraIslamicCenter/Pods-AlZehraIslamicCenter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTimePicker/DateTimePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTimePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlZehraIslamicCenter/Pods-AlZehraIslamicCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F283CCCC1F767FB9002C2748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23F5A1F1F972354002A677F /* SKUtility.swift in Sources */,
+				F22AC58B1FAA4854002F3B5B /* Color+Extension.swift in Sources */,
+				F27382261FABB17D00131355 /* AZPrayerTimingAPI.swift in Sources */,
+				B1C8ECA11FBF37F700DD8CCF /* AZCreateEventAPI.swift in Sources */,
+				F273822C1FABB3C900131355 /* AZPrayerTimingModel.swift in Sources */,
+				F2B407841FA5A72D00E13B54 /* AZCreateAccountResponse.swift in Sources */,
+				F23F5A451F975979002A677F /* ModelMappable.swift in Sources */,
+				F2B407801FA5A6C100E13B54 /* AZCreateAccountAPI.swift in Sources */,
+				B150AE021FC6B4E800CD39CC /* AZDirectionSearchCell.swift in Sources */,
+				B150ADFE1FC6A75100CD39CC /* AZSearchDirectionResultViewController.swift in Sources */,
+				B1C8EC7A1FBD4DD500DD8CCF /* AZSignUpViewController.swift in Sources */,
+				B17E2AA71FD2B8230077F4AE /* AZWKViewController.swift in Sources */,
+				F2B407661FA514E300E13B54 /* AZUpComingEventViewModel.swift in Sources */,
+				F283CD051F76ACD8002C2748 /* AZMenuItemCollectionViewCell.swift in Sources */,
+				F266C6731F97766400FA5AE6 /* UserInfoModel.swift in Sources */,
+				B1C8ECB01FC1644100DD8CCF /* AZOfflinePaymentViewModel.swift in Sources */,
+				F23F5A2C1F9739AC002A677F /* UserStatusViewModel.swift in Sources */,
+				B150ADFC1FC6A72900CD39CC /* AZDirectionManager.swift in Sources */,
+				F2FECC261F9C8B49002C7031 /* PRGValidationField.swift in Sources */,
+				F23F5A2F1F973C0A002A677F /* ApiConstants.swift in Sources */,
+				B150AE071FC7FF8D00CD39CC /* AZUserDetailAPI.swift in Sources */,
+				F23F5A321F974024002A677F /* KeychainItemAccessibility.swift in Sources */,
+				F266C6751F977FEC00FA5AE6 /* ViewController.swift in Sources */,
+				B150AE261FCDDF1400CD39CC /* AZSignOutViewController.swift in Sources */,
+				B150ADFA1FC6A71500CD39CC /* AZDirectionCell.swift in Sources */,
+				B150AE201FCDDEDF00CD39CC /* AZSupportViewController.swift in Sources */,
+				F2B407881FA5B25A00E13B54 /* AZUpComingEventModel.swift in Sources */,
+				B1C8ECAE1FC1621C00DD8CCF /* AZOfflinePaymentAPI.swift in Sources */,
+				B1C8ECB41FC2953B00DD8CCF /* AZAllUserResponse.swift in Sources */,
+				F23F5A431F974B40002A677F /* Date+Extension.swift in Sources */,
+				F283CCD41F767FB9002C2748 /* AppDelegate.swift in Sources */,
+				F2B407861FA5A75C00E13B54 /* AZCreateAccountViewModel.swift in Sources */,
+				F2B407831FA5A72D00E13B54 /* AZCreateAccountRequest.swift in Sources */,
+				B1C8ECB21FC1654B00DD8CCF /* AZOfflinePaymentViewController.swift in Sources */,
+				B150ADF41FC6A6C200CD39CC /* AZDirectionMapViewController.swift in Sources */,
+				F273822E1FABB3EB00131355 /* AZPrayerTimingViewModel.swift in Sources */,
+				B150AE1C1FCDDEAE00CD39CC /* AZFuneralServiceViewController.swift in Sources */,
+				F23F5A341F974055002A677F /* KeychainWrapper.swift in Sources */,
+				F283CD161F77F020002C2748 /* AZUserInfoModel.swift in Sources */,
+				B150AE281FCDE86B00CD39CC /* AZAnnouncementViewController.swift in Sources */,
+				F2B4077A1FA5987800E13B54 /* AZLoginViewModel.swift in Sources */,
+				B1C8EC981FBDE78A00DD8CCF /* AZCreateEventViewController.swift in Sources */,
+				B11E86BE1FD5950B005ECD8E /* AZQiblaFinder.swift in Sources */,
+				F23F5A211F972370002A677F /* SKServiceManager.swift in Sources */,
+				B1C8EC8D1FBD502600DD8CCF /* AZUserInfoCell.swift in Sources */,
+				F2B407781FA585AF00E13B54 /* AZLoginAPI.swift in Sources */,
+				B1C8EC8F1FBD506C00DD8CCF /* AZUsersListViewController.swift in Sources */,
+				B150AE1A1FCDDEA000CD39CC /* AZIslamicSchoolViewController.swift in Sources */,
+				F2B407921FA7203400E13B54 /* AZEventCollectionViewCell.swift in Sources */,
+				F2B407751FA516C000E13B54 /* AZAuthTokenRequest.swift in Sources */,
+				F2B407761FA516C000E13B54 /* AZAuthTokenResponse.swift in Sources */,
+				B150AE0F1FCB191C00CD39CC /* AZWebViewController.swift in Sources */,
+				F283CCF91F7688F7002C2748 /* AZDrawerViewController.swift in Sources */,
+				F23F5A411F974937002A677F /* String+Extension.swift in Sources */,
+				B150AE1E1FCDDEBC00CD39CC /* AZMarriageServiceViewController.swift in Sources */,
+				F283CD011F768F50002C2748 /* Storyboard+Extension.swift in Sources */,
+				B150ADF61FC6A6E500CD39CC /* AZDirectionDetailViewController.swift in Sources */,
+				F2B4078A1FA5D65500E13B54 /* AZLoginViewController.swift in Sources */,
+				B1C8ECA61FC14B6100DD8CCF /* AZCreateEventViewModel.swift in Sources */,
+				B1C8ECAC1FC1616600DD8CCF /* AZOfflineResponse.swift in Sources */,
+				B1C8EC9F1FBF374D00DD8CCF /* AZCreateEventModel.swift in Sources */,
+				F23F5A1D1F972331002A677F /* SKServiceConstants.swift in Sources */,
+				F23F5A371F974108002A677F /* Constants.swift in Sources */,
+				F23F5A231F972395002A677F /* SKServiceManagerProtocol.swift in Sources */,
+				F2B407901FA71F3E00E13B54 /* AZEventViewController.swift in Sources */,
+				F23F5A1B1F972314002A677F /* SKServiceConfigauration.swift in Sources */,
+				B150AE051FC7FF4900CD39CC /* AZUserLandingScreenViewController.swift in Sources */,
+				B1C8ECB81FC297BF00DD8CCF /* AZAllUserViewModel.swift in Sources */,
+				B150AE241FCDDF0600CD39CC /* AZContactUsViewController.swift in Sources */,
+				F23F5A3F1F97479E002A677F /* AZUtility.swift in Sources */,
+				B1C8ECB61FC2959A00DD8CCF /* AZAllUserAPI.swift in Sources */,
+				B1A10D161FE2FE3B0052BE3A /* AZPaymentHistoryCell.swift in Sources */,
+				F2B407641FA5128500E13B54 /* AZUpComingEventAPI.swift in Sources */,
+				F283CD071F76AFD3002C2748 /* NSObject+Extension.swift in Sources */,
+				F23F5A2A1F97398F002A677F /* UserStatusAPI.swift in Sources */,
+				F273822A1FABB35100131355 /* AZLandingViewController.swift in Sources */,
+				B1C8ECA41FC0B55400DD8CCF /* AppDataManager.swift in Sources */,
+				B150AE091FC7FFB400CD39CC /* AZUserDetailViewModel.swift in Sources */,
+				B150AE221FCDDEEF00CD39CC /* AZMissionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283CCE01F767FBA002C2748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283CCE91F767FBA002C2748 /* AlZehraIslamicCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F283CCE61F767FBA002C2748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F283CCCF1F767FB9002C2748 /* AlZehraIslamicCenter */;
+			targetProxy = F283CCE51F767FBA002C2748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F283CCD71F767FB9002C2748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F283CCD81F767FB9002C2748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F283CCDC1F767FB9002C2748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F283CCDD1F767FB9002C2748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F283CCEB1F767FBA002C2748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F283CCEC1F767FBA002C2748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F283CCEE1F767FBA002C2748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627D0D357AE2E2008D9CD4A8 /* Pods-AlZehraIslamicCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AlZehraIslamicCenter/AlZehraIslamicCenter.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9R8392X8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/BraintreeDropIn",
+				);
+				INFOPLIST_FILE = AlZehraIslamicCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azicc.AlZehraIslamicCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlZehraIslamicCenter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F283CCEF1F767FBA002C2748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA47B1C20AF1D487929EE601 /* Pods-AlZehraIslamicCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AlZehraIslamicCenter/AlZehraIslamicCenter.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9R8392X8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/BraintreeDropIn",
+				);
+				INFOPLIST_FILE = AlZehraIslamicCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azicc.AlZehraIslamicCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlZehraIslamicCenter-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F283CCF11F767FBA002C2748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlZehraIslamicCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alico.AlZehraIslamicCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlZehraIslamicCenter.app/AlZehraIslamicCenter";
+			};
+			name = Debug;
+		};
+		F283CCF21F767FBA002C2748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlZehraIslamicCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alico.AlZehraIslamicCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlZehraIslamicCenter.app/AlZehraIslamicCenter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F283CCCB1F767FB9002C2748 /* Build configuration list for PBXProject "AlZehraIslamicCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283CCEB1F767FBA002C2748 /* Debug */,
+				F283CCEC1F767FBA002C2748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F283CCED1F767FBA002C2748 /* Build configuration list for PBXNativeTarget "AlZehraIslamicCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283CCEE1F767FBA002C2748 /* Debug */,
+				F283CCEF1F767FBA002C2748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F283CCF01F767FBA002C2748 /* Build configuration list for PBXNativeTarget "AlZehraIslamicCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283CCF11F767FBA002C2748 /* Debug */,
+				F283CCF21F767FBA002C2748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F283CCC81F767FB9002C2748 /* Project object */;
+}
